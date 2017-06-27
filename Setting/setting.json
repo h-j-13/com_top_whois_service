@@ -1,0 +1,40 @@
+{
+  "comment": "MaliciousULRWhois系统配置文件",
+  "database": {
+    "comment": "数据库配置文件",
+    "host": "172.29.152.249",
+    "port": 3306,
+    "user": "root",
+    "passwd": "platform",
+    "charset": "utf8"
+  },
+  "whoisData": {
+    "comment": "whois所需数据",
+    "svripTable": "whois_support.whois_srvip",
+    "proxySocksTable": "whois_support.whois_proxy",
+    "whoisTldTable": "whois_support.whois_tld_addr",
+    "whoisFuncFile": "service_function.dat",
+    "proxyipRefresh": 10000,
+    "socksReconnect": 3,
+    "socksTimeout": 10,
+    "DatabaseName": "top_whois_srv_com",
+    "whoisTable": "domain_whois_com_top_srv_11",
+    "whowasTable": "domain_whois_com_top_srv_11",
+    "domainTable": "domain_whois_com_top_srv_11"
+  },
+  "HTTP": {
+    "comment": "HTTP数据获取部分参数",
+    "DatabaseName": "malicious_domain_sys",
+    "domainTable": "malicious_info",
+    "processNum": 15,
+    "HTTPtimeOut": 20
+  },
+  "System": {
+    "comment": "系统运行参数",
+    "processNum": 30,
+    "processNumLow": 5,
+    "commitNum": 1000,
+    "proxySocks": false,
+    "whowasTransform": true
+  }
+}
