@@ -55,7 +55,7 @@ pyasn1-modules==0.0.8
 pycrypto==2.6.1
 pycurl==7.43.0
 PyDispatcher==2.0.5
-Pygments==2.2.0
+Pygments==2.7.4
 pygobject==3.22.0
 PyJWT==1.4.2
 pyodbc==3.0.10
