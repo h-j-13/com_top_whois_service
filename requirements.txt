@@ -25,7 +25,7 @@ file-magic==0.3.0
 idna==2.2
 incremental==16.10.1
 ipaddress==1.0.17
-ipython==5.1.0
+ipython==7.16.3
 ipython-genutils==0.1.0
 javascriptcore==0.3
 keyring==10.1
