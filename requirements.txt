@@ -36,7 +36,7 @@ mutagen==1.36
 mysql-connector-python==2.1.5
 MySQL-python==1.2.5
 mysql-utilities==1.6.4
-numpy==1.12.1
+numpy==1.22.0
 oauthlib==2.0.1
 paramiko==2.0.0
 parsel==1.1.0
